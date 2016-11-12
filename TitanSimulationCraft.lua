@@ -1,13 +1,13 @@
 -- Titan [SimulationCraft]
 -- Description: Titan plug-in to open Simulation Craft
 -- Author: r1fT
--- Version: 1.0.3.70100
+-- Version: 1.0.4.70100
 
 local _G = getfenv(0);
 local TITAN_SIMULATIONCRAFT_ID = "SimulationCraft";
-local TITAN_SIMULATIONCRAFT_VER = "1.0.3.70000";
+local TITAN_SIMULATIONCRAFT_VER = "1.0.4.70000";
 local updateTable = {TITAN_SIMULATIONCRAFT_ID, TITAN_PANEL_UPDATE_BUTTON};
-local buttonlabel = "Titan Panel [SimulationCraft]"
+local buttonlabel = "Titan Panel [|cff00ff00SimulationCraft|r]"
 local L = LibStub("AceLocale-3.0"):GetLocale("Titan", true)
 local AceTimer = LibStub("AceTimer-3.0")
 local OverallAvg
@@ -26,9 +26,9 @@ function TitanPanelSimulationCraftButton_OnLoad(self)
 		id = TITAN_SIMULATIONCRAFT_ID,
 		version = TITAN_SIMULATIONCRAFT_VER,
 		category = "Information",
-		menuText = "Titan Panel [SimulationCraft]",
+		menuText = "Titan Panel [|cff00ff00SimulationCraft|r]",
 		buttonTextFunction = "TitanPanelSimulationCraftButton_GetButtonText", 
-		tooltipTitle = "SimulationCraft",
+		tooltipTitle = "|cff00ff00SimulationCraft|r",
 		tooltipTextFunction = "TitanPanelSimulationCraftButton_GetTooltipText", 
 		icon = "Interface\\Addons\\TitanSimulationCraft\\Icon",
 		iconWidth = 16,
@@ -93,9 +93,9 @@ function TitanPanelSimulationCraftButton_GetTooltipText()
 				for k, v in pairs(value) do
 					if (v ~= 0) then
 						if (k % 2 == 0) then
-							SimCItems = SimCItems.."	|cFFFFFFFF"..Pawn_round(v, 1).." \n"
+							SimCItems = SimCItems.."	|cFF00FF00"..Pawn_round(v, 1).."|r \n"
 						else
-							SimCItems = SimCItems.."   *"..v
+							SimCItems = SimCItems.."   |cFFFFFFFF*"..v.."|r"
 						end
 					else
 						break
@@ -118,9 +118,9 @@ function TitanPanelSimulationCraftButton_GetTooltipText()
 				for k, v in pairs(value) do
 					if (v ~= 0) then
 						if (k % 2 == 0) then
-							SimCItems = SimCItems.."	|cFFFFFFFF"..Pawn_round(v, 1).." \n"
+							SimCItems = SimCItems.."	|cFF00FF00"..Pawn_round(v, 1).."|r \n"
 						else
-							SimCItems = SimCItems.."   *"..v
+							SimCItems = SimCItems.."   |cFFFFFFFF*"..v.."|r"
 						end
 					else
 						break
@@ -143,9 +143,9 @@ function TitanPanelSimulationCraftButton_GetTooltipText()
 				for k, v in pairs(value) do
 					if (v ~= 0) then
 						if (k % 2 == 0) then
-							SimCItems = SimCItems.."	|cFFFFFFFF"..Pawn_round(v, 1).." \n"
+							SimCItems = SimCItems.."	|cFF00FF00"..Pawn_round(v, 1).."|r \n"
 						else
-							SimCItems = SimCItems.."   *"..v
+							SimCItems = SimCItems.."   |cFFFFFFFF*"..v.."|r"
 						end
 					else
 						break
@@ -168,9 +168,9 @@ function TitanPanelSimulationCraftButton_GetTooltipText()
 				for k, v in pairs(value) do
 					if (v ~= 0) then
 						if (k % 2 == 0) then
-							SimCItems = SimCItems.."	|cFFFFFFFF"..Pawn_round(v, 1).." \n"
+							SimCItems = SimCItems.."	|cFF00FF00"..Pawn_round(v, 1).."|r \n"
 						else
-							SimCItems = SimCItems.."   *"..v
+							SimCItems = SimCItems.."   |cFFFFFFFF*"..v.."|r"
 						end
 					else
 						break
@@ -193,9 +193,9 @@ function TitanPanelSimulationCraftButton_GetTooltipText()
 				for k, v in pairs(value) do
 					if (v ~= 0) then
 						if (k % 2 == 0) then
-							SimCItems = SimCItems.."	|cFFFFFFFF"..Pawn_round(v, 1).." \n"
+							SimCItems = SimCItems.."	|cFF00FF00"..Pawn_round(v, 1).."|r \n"
 						else
-							SimCItems = SimCItems.."   *"..v
+							SimCItems = SimCItems.."   |cFFFFFFFF*"..v.."|r"
 						end
 					else
 						break
@@ -218,9 +218,9 @@ function TitanPanelSimulationCraftButton_GetTooltipText()
 				for k, v in pairs(value) do
 					if (v ~= 0) then
 						if (k % 2 == 0) then
-							SimCItems = SimCItems.."	|cFFFFFFFF"..Pawn_round(v, 1).." \n"
+							SimCItems = SimCItems.."	|cFF00FF00"..Pawn_round(v, 1).."|r \n"
 						else
-							SimCItems = SimCItems.."   *"..v
+							SimCItems = SimCItems.."   |cFFFFFFFF*"..v.."|r"
 						end
 					else
 						break
@@ -243,9 +243,9 @@ function TitanPanelSimulationCraftButton_GetTooltipText()
 				for k, v in pairs(value) do
 					if (v ~= 0) then
 						if (k % 2 == 0) then
-							SimCItems = SimCItems.."	|cFFFFFFFF"..Pawn_round(v, 1).." \n"
+							SimCItems = SimCItems.."	|cFF00FF00"..Pawn_round(v, 1).."|r \n"
 						else
-							SimCItems = SimCItems.."   *"..v
+							SimCItems = SimCItems.."   |cFFFFFFFF*"..v.."|r"
 						end
 					else
 						break
@@ -268,9 +268,9 @@ function TitanPanelSimulationCraftButton_GetTooltipText()
 				for k, v in pairs(value) do
 					if (v ~= 0) then
 						if (k % 2 == 0) then
-							SimCItems = SimCItems.."	|cFFFFFFFF"..Pawn_round(v, 1).." \n"
+							SimCItems = SimCItems.."	|cFF00FF00"..Pawn_round(v, 1).."|r \n"
 						else
-							SimCItems = SimCItems.."   *"..v
+							SimCItems = SimCItems.."   |cFFFFFFFF*"..v.."|r"
 						end
 					else
 						break
@@ -293,9 +293,9 @@ function TitanPanelSimulationCraftButton_GetTooltipText()
 				for k, v in pairs(value) do
 					if (v ~= 0) then
 						if (k % 2 == 0) then
-							SimCItems = SimCItems.."	|cFFFFFFFF"..Pawn_round(v, 1).." \n"
+							SimCItems = SimCItems.."	|cFF00FF00"..Pawn_round(v, 1).."|r \n"
 						else
-							SimCItems = SimCItems.."   *"..v
+							SimCItems = SimCItems.."   |cFFFFFFFF*"..v.."|r"
 						end
 					else
 						break
@@ -318,9 +318,9 @@ function TitanPanelSimulationCraftButton_GetTooltipText()
 				for k, v in pairs(value) do
 					if (v ~= 0) then
 						if (k % 2 == 0) then
-							SimCItems = SimCItems.."	|cFFFFFFFF"..Pawn_round(v, 1).." \n"
+							SimCItems = SimCItems.."	|cFF00FF00"..Pawn_round(v, 1).."|r \n"
 						else
-							SimCItems = SimCItems.."   *"..v
+							SimCItems = SimCItems.."   |cFFFFFFFF*"..v.."|r"
 						end
 					else
 						break
@@ -343,9 +343,9 @@ function TitanPanelSimulationCraftButton_GetTooltipText()
 				for k, v in pairs(value) do
 					if (v ~= 0) then
 						if (k % 2 == 0) then
-							SimCItems = SimCItems.."	|cFFFFFFFF"..Pawn_round(v, 1).." \n"
+							SimCItems = SimCItems.."	|cFF00FF00"..Pawn_round(v, 1).."|r \n"
 						else
-							SimCItems = SimCItems.."   *"..v
+							SimCItems = SimCItems.."   |cFFFFFFFF*"..v.."|r"
 						end
 					else
 						break
@@ -368,9 +368,9 @@ function TitanPanelSimulationCraftButton_GetTooltipText()
 				for k, v in pairs(value) do
 					if (v ~= 0) then
 						if (k % 2 == 0) then
-							SimCItems = SimCItems.."	|cFFFFFFFF"..Pawn_round(v, 1).." \n"
+							SimCItems = SimCItems.."	|cFF00FF00"..Pawn_round(v, 1).."|r \n"
 						else
-							SimCItems = SimCItems.."   *"..v
+							SimCItems = SimCItems.."   |cFFFFFFFF*"..v.."|r"
 						end
 					else
 						break
@@ -393,9 +393,9 @@ function TitanPanelSimulationCraftButton_GetTooltipText()
 				for k, v in pairs(value) do
 					if (v ~= 0) then
 						if (k % 2 == 0) then
-							SimCItems = SimCItems.."	|cFFFFFFFF"..Pawn_round(v, 1).." \n"
+							SimCItems = SimCItems.."	|cFF00FF00"..Pawn_round(v, 1).."|r \n"
 						else
-							SimCItems = SimCItems.."   *"..v
+							SimCItems = SimCItems.."   |cFFFFFFFF*"..v.."|r"
 						end
 					else
 						break
@@ -418,9 +418,9 @@ function TitanPanelSimulationCraftButton_GetTooltipText()
 				for k, v in pairs(value) do
 					if (v ~= 0) then
 						if (k % 2 == 0) then
-							SimCItems = SimCItems.."	|cFFFFFFFF"..Pawn_round(v, 1).." \n"
+							SimCItems = SimCItems.."	|cFF00FF00"..Pawn_round(v, 1).."|r \n"
 						else
-							SimCItems = SimCItems.."   *"..v
+							SimCItems = SimCItems.."   |cFFFFFFFF*"..v.."|r"
 						end
 					else
 						break
