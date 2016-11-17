@@ -1,0 +1,17 @@
+v1.0.4.70100
+				- Changed Colors on Tooltip.
+
+v1.0.3.70100
+				- Updated Tooltip with Pawn support.
+
+v1.0.3.70000
+				- Updated Tooltip with Pawn support.
+
+v1.0.2.70000
+				- Changed Formatting of Tooltip.
+
+v1.0.1.70000 
+				- Updated Tooltip with Current Gears ilvl.
+
+v1.0.0.70000 
+				- Initial Release.
