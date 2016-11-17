@@ -1,11 +1,11 @@
 -- Titan [SimulationCraft]
 -- Description: Titan plug-in to open Simulation Craft
 -- Author: r1fT
--- Version: 1.0.4.70100
+-- Version: @project-version@
 
 local _G = getfenv(0);
 local TITAN_SIMULATIONCRAFT_ID = "SimulationCraft";
-local TITAN_SIMULATIONCRAFT_VER = "1.0.4.70000";
+local TITAN_SIMULATIONCRAFT_VER = "@project-version@";
 local updateTable = {TITAN_SIMULATIONCRAFT_ID, TITAN_PANEL_UPDATE_BUTTON};
 local buttonlabel = "Titan Panel [|cff00ff00SimulationCraft|r]"
 local L = LibStub("AceLocale-3.0"):GetLocale("Titan", true)
