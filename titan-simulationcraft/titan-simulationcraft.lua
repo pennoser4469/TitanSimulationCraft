@@ -30,7 +30,7 @@ function TitanPanelSimulationCraftButton_OnLoad(self)
 		buttonTextFunction = "TitanPanelSimulationCraftButton_GetButtonText", 
 		tooltipTitle = "|cff00ff00SimulationCraft|r",
 		tooltipTextFunction = "TitanPanelSimulationCraftButton_GetTooltipText", 
-		icon = "Interface\\Addons\\TitanSimulationCraft\\Icon",
+		icon = "Interface\\Addons\\titan-simulationcraft\\Icon",
 		iconWidth = 16,
 		controlVariables = {
 			ShowIcon = true,
