@@ -1,3 +1,6 @@
+v1.0.5.70100
+				- Migrating from curseforge to github.
+
 v1.0.4.70100
 				- Changed Colors on Tooltip.
 
