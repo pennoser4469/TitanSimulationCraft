@@ -9,6 +9,7 @@ ignore: # Files and directories beginning with a dot (such as .git) are automati
 
 required-dependencies:
     - 82745-simulationcraft
+    - 489-titan-panel
 
 optional-dependencies:
     - 4646-pawn
