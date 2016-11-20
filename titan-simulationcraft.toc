@@ -1,8 +1,8 @@
 ## Interface: 70100
-## Title: Titan Panel [|cff00ff00SimulationCraft|r] |cff00aa00v1.1.0.70100|r
+## Title: Titan Panel [|cff00ff00SimulationCraft|r] |cff00aa00v1.1.1.70100|r
 ## Notes: Titan Panel plugin that opens SimulationCraft
 ## Author: r1fT
-## Version: v1.1.0.70100
+## Version: v1.1.1.70100
 ## Dependencies: Titan, Simulationcraft
 ## X-Child-Of: Titan
 titan-simulationcraft.xml
